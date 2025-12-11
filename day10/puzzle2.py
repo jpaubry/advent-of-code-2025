@@ -9,6 +9,7 @@ from pulp import LpProblem, LpMinimize, LpVariable, lpSum, value, LpStatus, COIN
 import numpy as np
 import re
 
+# thanks gemini
 # Define the path where Homebrew installed CBC
 # Check your specific path, but this is the standard M-series path:
 path_to_cbc = "/opt/homebrew/bin/cbc"
